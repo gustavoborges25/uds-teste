@@ -1,0 +1,88 @@
+div{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #666;
+}
+.background {
+    background-color: #e5e5e5;
+    position: absolute;
+    top : 0;
+    bottom : 0;
+    right : 0;
+    left : 0%;
+    z-index: 0;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display : flex;
+    max-width: 1320px;
+    position: absolute;
+    color: #666;
+}
+.caixaLogin {
+    max-width: 540px;
+    padding-top: 8vh;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px 30px 20px;
+}
+.logoLogin{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.dadosLogin{
+    margin: 0;
+    padding: 0;
+}
+label{
+    display: block;
+}
+.dadosLoginGrupo{
+    margin-bottom: 10px;
+}
+.loginCheckbox{
+    display: flex;
+    justify-content: space-between;
+}
+.dadosLoginGrupo input{
+    width: 100%;
+    line-height: 43px;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
+    color: #666;
+    padding: 0 17px;
+}
+button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.botaoEntrar{
+    background-color: #4caf50;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.botaoFacebook{
+    background-color: #3868cd;
+}
+.botaoGoogle{
+    background-color: #f73936;
+}
+.cadastrar{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
