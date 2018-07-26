@@ -1,7 +1,7 @@
 <html lang="pt-br">
 
     <link rel="stylesheet" href="css/painel.css" >
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <head>
 
         <meta charset="utf-8">
@@ -12,55 +12,157 @@
     <body>
 
         <div class="background">
-        </div>
+            <div class="caixa">
+                <div class="header">
+                    <div class="logoHeader">
+                        <a href="#">
+                            <img src="img/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="menuHeader">
+                        <ul>
+                            <li class="tituloMenu" >
+                                <a href="painel.html" class="botaoMenu">Dashboard</a>
+                            </li>
+                            <li class="tituloMenu">
+                                <a href="listaProdutos.html" class="botaoMenu">Lista de Produtos</a>
+                            </li>
+                            <li class="tituloMenu">
+                                <a href="cadastroProdutos.html" class="botaoMenu">Cadastro de Produtos</a>
+                            </li>
+                            <li class="tituloMenu">
+                                <a href="listaPedidos.html" class="botaoMenu">Lista de Pedidos</a>
+                            </li>
+                            <li class="tituloMenu">
+                                <a href="cadastroPedidos.html" class="botaoMenu">Cadastro de Pedidos</a>
+                            </li>
+                        </ul>
+                    </div>
 
-        <div class="container">
-            <div class="header">
-                <div class="logoHeader">
-                    <a href="#">
-                        <img src="img/logo.png" alt="Logo">
-                    </a>
                 </div>
-                <div class="menuHeader">
-                    <ul>
-                        <li class="tituloMenu">]
-                            <a href="#">
-                                <i></i>
-                                Dashboard
-                                <span class="botaoMenu"></span>
-                            </a>
-                        </li>
-                        <li class="tituloMenu">]
-                            <a href="#">
-                                <i></i>
-                                Lista de Produtos
-                                <span class="botaoMenu"></span>
-                            </a>
-                        </li>
-                        <li class="tituloMenu">]
-                            <a href="#">
-                                <i></i>
-                                Cadastro de Produtos
-                                <span class="botaoMenu"></span>
-                            </a>
-                        </li>
-                        <li class="tituloMenu">]
-                            <a href="#">
-                                <i></i>
-                                Lista de Pedidos
-                                <span class="botaoMenu"></span>
-                            </a>
-                        </li>
-                        <li class="tituloMenu">]
-                            <a href="#">
-                                <i></i>
-                                Cadastro de pedidos
-                                <span class="botaoMenu"></span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            </div>
+            <div class="conteudo">
+                <section class="tituloDashboard">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1 class="title-4">Dashboard</h1>
+                                <hr class="line-seprate">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="estatisticas">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-3">
+                                <div class="itemEstatistica">
+                                    <h2 class="number">10,368</h2>
+                                    <span class="desc">usuários online</span>
+                                    <div class="icon">
+                                        <i class="zmdi zmdi-account-o"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="itemEstatistica">
+                                    <h2 class="number">388,688</h2>
+                                    <span class="desc">items vendidos</span>
+                                    <div class="icon">
+                                        <i class="zmdi zmdi-shopping-cart"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="itemEstatistica">
+                                    <h2 class="number">1,086</h2>
+                                    <span class="desc">esta semana</span>
+                                    <div class="icon">
+                                        <i class="zmdi zmdi-calendar-note"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <div class="itemEstatistica">
+                                    <h2 class="number">R$1,060,386</h2>
+                                    <span class="desc">ganho total</span>
+                                    <div class="icon">
+                                        <i class="zmdi zmdi-money"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
+                <section class="graficos">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2 class="title-5 m-b-35">Estatísticas:</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="graficos1">
+                                    <h3 class="title-3 m-b-30">Gráfico</h3>
+                                    <div class="chart-wrap">
+                                    </div>
+                                    <div class="graficoItens">
+                                        <span class="big">10,368</span>
+                                        <span>/ 16220 items vendidos</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="tabelaRanking">
+                                    <h3 class="title-3 m-b-30">Ranking venda por estado</h3>
+                                    <div class="table-responsive">
+                                        <table class="table table-top-campaign">
+                                            <tbody>
+                                                <tr>
+                                                    <td>1. São Paulo</td>
+                                                    <td>R$70,261.65</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2. Minas Gerais</td>
+                                                    <td>R$46,399.22</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3. Paraná</td>
+                                                    <td>R$35,364.90</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4. Bahia</td>
+                                                    <td>R$20,366.96</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5. Rio Grande do Sul</td>
+                                                    <td>R$10,366.96</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="grafico2">
+                                    <h3 class="title-3 m-b-30">Gráfico por %</h3>
+                                    <div class="chart-info">
+                                        <div class="chart-note">
+                                            <span class="dot dot--blue"></span>
+                                            <span>Produtos</span>
+                                        </div>
+                                        <div class="chart-note">
+                                            <span class="dot dot--red"></span>
+                                            <span>Serviços</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
 

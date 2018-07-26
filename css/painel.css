@@ -14,16 +14,15 @@ div{
     left : 0%;
     z-index: 0;
 }
-.container {
+.caixa {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     display : flex;
-    max-width: 1320px;
-    position: absolute;
     color: #666;
+    margin-top: 5px;
 }
 .header {
     max-width: 540px;
@@ -43,21 +42,33 @@ div{
 }
 ul{
     display: flex;
+    align-items: center;
+}
+.glyphicon li{
+    display: flex;
 }
 li{
-    margin-left: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
 }
 img{
     max-height: 75px;
     max-width: 75px;
 }
 .tituloMenu a{
+    display: flex;
     text-decoration: none;
     cursor: pointer;
     list-style: none;
     background-color: transparent;
     color: #ccc;
+    line-height: normal;
+}
+.tituloMenu{
     border-left: 1px solid rgba(255, 255, 255, 0.102);
+    border-right: 1px solid rgba(255, 255, 255, 0.102);
+    padding: 20px;
 }
 .tituloMenu a:hover{
     color: #4272d7;
@@ -70,4 +81,7 @@ img{
 }
 label{
     display: block;
+}
+.conteudo{
+    top: 120px;
 }
